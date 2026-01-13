@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "rss": "",
+    "discord": {
+      "clientId": "1460668759428825249",
+      "smallImageText": "Pixelmon"
+    }
+  },
+  "servers": [
+    {
+      "id": "dd",
+      "name": "Pixelmon NeoForge Server",
+      "description": "Auto generated NeoForge server",
+      "icon": "",
+      "version": "9.3.13",
+      "address": "localhost",
+      "minecraftVersion": "1.21.1",
+      "loader": {
+        "type": "neoforge",
+        "version": "21.1.200"
+      },
+      "javaVersion": {
+        "major": 17
+      },
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "server",
+          "name": "Server Files",
+          "type": "server",
+          "required": true,
+          "path": "server",
+          "artifacts": []
+        }
+      ]
+    }
+  ]
+}
