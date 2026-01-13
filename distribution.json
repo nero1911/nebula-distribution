@@ -11,18 +11,18 @@
       "description": "Test",
       "icon": "icon.png",
       "version": "1.20.1",
-      "address": "localhost",
+      "address": "127.0.0.1",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
       "autoconnect": false,
       "modules": [
-        {
-          "id": "neoforge",
-          "name": "NeoForge",
-          "type": "forge",
-          "required": true,
-          "version": "20.4.237"
-        }
+       {
+  "id": "forge",
+  "name": "Forge",
+  "type": "forge",
+  "required": true,
+  "version": "47.2.0"
+}
       ]
     }
   }
