@@ -1,21 +1,29 @@
 {
   "version": "1.0.0",
-  "servers": [
-    {
-      "id": "main",
-      "name": "Pixelmon NeoForge",
-      "description": "NeoForge Server",
+  "meta": {
+    "rss": "",
+    "discord": "",
+    "homepage": ""
+  },
+  "servers": {
+    "main": {
+      "name": "Test Server",
+      "description": "Test",
+      "icon": "icon.png",
       "version": "1.20.1",
-      "minecraftVersion": "1.20.1",
       "address": "localhost",
+      "minecraftVersion": "1.20.1",
+      "mainServer": true,
+      "autoconnect": false,
       "modules": [
         {
           "id": "neoforge",
+          "name": "NeoForge",
           "type": "forge",
-          "version": "20.4.237",
-          "required": true
+          "required": true,
+          "version": "20.4.237"
         }
       ]
     }
-  ]
+  }
 }
