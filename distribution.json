@@ -4,9 +4,7 @@
     "main": {
       "name": "Pixelmon NeoForge",
       "description": "NeoForge Server",
-      "icon": "icon.png",
       "version": "1.20.1",
-      "address": "localhost",
       "minecraftVersion": "1.20.1",
       "modules": [
         {
